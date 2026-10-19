@@ -384,6 +384,24 @@ section {
   border: 0;
 }
 
+.sketch-frame {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  max-width: 560px;
+  margin: 0 auto;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.sketch-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .page-figure figcaption {
   color: var(--color-muted);
   font-size: 0.88rem;
